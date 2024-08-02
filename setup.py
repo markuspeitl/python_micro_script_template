@@ -33,7 +33,10 @@ setup(
     # These scripts are useable in the system and call main.py's main function in the `script` module
     entry_points={
         'console_scripts': [
+            # Main entry point -> function of the implemented script
             'my_console_script_name = script.main:main',
+
+            # Package housekeeping scripts
             'py_build = package.build:main',
             'py_install_dev = package.install_dev:main',
             'py_install_git = package.install_git:main',
