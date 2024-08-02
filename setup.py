@@ -27,6 +27,8 @@ setup(
     # Depends on the following packages
     install_requires=[
         'pyperclip',
+        # For publishing with the `publish.py` script
+        'twine'
     ],
     # These scripts are useable in the system and call main.py's main function in the `script` module
     entry_points={
