@@ -8,7 +8,7 @@ exec(open("script/__init__.py").read())
 setup(
     # The name with which the provided packages can be installed
     name='python_micro_script_template',
-    version='0.0.1',
+    version='0.0.2',
     # include_package_data=True,
     python_requires='>=3',
     description='Template for a small installable script',
