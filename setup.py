@@ -26,7 +26,7 @@ setup(
     ],
     # Depends on the following packages
     install_requires=[
-        'pyperclip',
+        # 'pyperclip',
         # For publishing with the `publish.py` script
         'twine'
     ],
