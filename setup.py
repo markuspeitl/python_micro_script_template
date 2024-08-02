@@ -34,10 +34,15 @@ setup(
     entry_points={
         'console_scripts': [
             'my_console_script_name = script.main:main',
+            'py_build = package.build:main',
+            'py_install_dev = package.install_dev:main',
+            'py_install_git = package.install_git:main',
+            'py_publish = package.publish:main',
         ]
     },
     # Packages within the module that can be imported (these are the actual import names)
     # Some packages use the same name for the `name` field as for the main modules directory which can be defined in `packages` or automatically found with `find_packages`
     # This has the advantage that the package can be installed and the main module imported with the same name to prevent confusion
     # packages=find_packages()
+    packages=['package']
 )
